@@ -1,0 +1,68 @@
+body{
+  padding: 0;
+  background: #444444;
+}
+section.form{
+  position: absolute;
+  top: 20px;
+  left: 30%;
+  padding: 10px;
+  background: #ffffff;
+  width: 40%;
+  height: auto;
+  box-shadow: 1px 1px 5px 2px;
+  animation: neon 10s infinite;
+}
+section.form input,textarea{
+  resize: none;
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+/* CSS For Key Board Section */
+section.keyboard {
+  position: absolute;
+  bottom: 0px;
+  left: 20%;
+  width: 60%;
+  padding: 20px;
+  border-radius: 5px;
+}
+.keyboard button{
+  animation: neon 10s infinite;
+  background: #222222;
+  color: #ffffff;
+  border: 2px solid #222222;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  width: 7.5%;
+  padding: 1%;
+  box-shadow: 1px 1px 10px 1px;
+}
+@keyframes neon {
+  0%{box-shadow:1px 1px 10px 2px #FFFF00;}
+  8%{box-shadow:1px 1px 10px 2px #FFFF33;}
+  16%{box-shadow:1px 1px 10px 2px #F2EA02;}
+  24%{box-shadow: 1px 1px 10px 2px #E6FB04;}
+  32%{box-shadow:1px 1px 10px 2px #FF0000;}
+  40%{box-shadow:1px 1px 10px 2px #FD1C03;}
+  48%{box-shadow:1px 1px 10px 2px #FF3300;}
+  56%{box-shadow: 1px 1px 10px 2px #FF6600;}
+  64%{box-shadow:1px 1px 10px 2px #00FF00;}
+  72%{box-shadow:1px 1px 10px 2px #00FF33;}
+  80%{box-shadow:1px 1px 10px 2px #00FF66;}
+  88%{box-shadow: 1px 1px 10px 2px #33ff00;}
+  100%{box-shadow:1px 1px 10px 2px #FFFF00;}
+}
+.keyboard button:active{
+  padding: 0.9%;
+  background: #000000;
+}
+button.spacebar{
+  width: 40%;
+}
+button.back{
+  width: 20%;
+}

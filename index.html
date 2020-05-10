@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>JavaScript Keyboard</title>
+  </head>
+  <body>
+    <section class="form" align="center">
+      <input id="cp" style="cursor:pointer" type="text" onclick="window.open('https://www.instagram.com/_maneesh_pandey')" readonly name="">
+      <input onfocus="isActive(this)" placeholder="Test Input Field 1" autocomplete="off" type="text" name="name" value=""><br>
+      <input onfocus="isActive(this)" placeholder="Test Input Field 2" autocomplete="off" type="text" name="name" value=""><br>
+      <input onfocus="isActive(this)" placeholder="Test Input Field 3" autocomplete="off" type="text" name="name" value="">
+      <br><textarea placeholder="Text Area Test Field"  onclick="isActive(this)" rows="3"></textarea>
+    </section>
+    <section align="center" class="keyboard">
+      <section id="keyboard">
+
+      </section>
+      <section class="other">
+        <button type="button" name="backspace" onclick="changeCase()" name="button">^</button>
+        <button type="button" onclick="insert(' ')" class="spacebar" name="spacebar">Space</button>
+        <button type="button" name="backspace" class="back" onclick="backSpace()" name="button">&lt; Back</button>
+      </section>
+    </section>
+  </body>
+
+<script src="./assets/main.js" charset="utf-8"></script>
+<script src="" charset="utf-8"></script>
+</html>
